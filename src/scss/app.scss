@@ -1,0 +1,540 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blue: #2947a9;
+}
+
+.bg-primarycolor {
+  background-color: #2947a9 !important;
+}
+
+.text-primarycolor {
+  color: #2947a9;
+}
+
+.ads-section {
+  height: 150vh;
+}
+
+.nav-link:hover {
+  color: orange !important;
+}
+
+.vw {
+  width: 100%;
+}
+
+.hero-text {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -70%);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.hero-section {
+  background: url('../images/design/hero/hero.png') no-repeat center;
+  height: 80vh;
+  width: auto;
+  background-size: cover;
+}
+
+.hero-feature {
+  top: 42vw;
+}
+
+.about-hero-img {
+  background: url('../images/design/aboutus/person.png') no-repeat center;
+  height: 50vh;
+  width: 92%;
+  background-size: cover;
+}
+
+.about-text {
+  width: 92%;
+  margin-left: 50%;
+  margin-top: 10%;
+}
+
+.reputation-title {
+  -webkit-text-stroke: black 2px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.reputation-heading {
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.reputation-content {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.reputation-card {
+  width: 65%;
+}
+
+.card > img {
+  width: 40px;
+  height: 40px;
+}
+
+.subscribe {
+  border: none;
+}
+
+.bg-orangecolor {
+  background-color: #f9995d;
+}
+
+.border-orangecolor {
+  color: #f9995d;
+}
+
+.card {
+  max-width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 200px;
+}
+
+.about-hero-img {
+  background: url('../images/design/aboutus/person.png') no-repeat center;
+  height: 50vh;
+  width: 92%;
+  background-size: cover;
+}
+
+.contact {
+  background-color: #f6f8f7;
+}
+
+.about-text {
+  width: 92%;
+  margin-left: 50%;
+  margin-top: 5%;
+}
+
+.servicesection .card:hover {
+  cursor: pointer;
+}
+
+.ads-section {
+  background: url('../images/design/ads/bck.png') no-repeat center;
+  height: 30vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.services {
+  width: 21rem;
+}
+
+.service-section {
+  background-color: #f6f8f7 !important;
+}
+
+.services .service-card {
+  width: 300px;
+  transition: transform 0.2s;
+  font-size: min(5vw, 1.4rem);
+}
+
+.service-card:nth-child(even) {
+  background-color: var(--blue);
+}
+
+.service-card:nth-child(even) h3 {
+  color: white;
+}
+
+.service-card:nth-child(odd) {
+  background-color: white;
+}
+
+.service-card:nth-child(odd) h3 {
+  color: var(--blue);
+}
+
+.tag1 {
+  top: 30%;
+  left: 10%;
+}
+
+.tag2 {
+  top: 55%;
+  left: 10%;
+}
+
+.consultationbutton {
+  top: 70%;
+  left: 10%;
+  padding: 10px;
+}
+
+.message {
+  height: 10vw;
+}
+
+.form-section button {
+  width: 25%;
+  height: 8vw;
+}
+
+.bottom-right {
+  top: 100%;
+}
+
+.socialmedia:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.ourreputation {
+  -webkit-text-stroke: 2px black;
+}
+
+.left-content {
+  border-left: 7px solid #f9995d;
+}
+
+.stats-icon,
+.hidden {
+  display: none;
+}
+
+.footer-text {
+  padding-left: 9% !important;
+}
+
+.project-cards-container {
+  max-width: 100%;
+}
+
+.project-cards {
+  max-width: 100%;
+}
+
+.project-cards img {
+  width: 100%;
+}
+
+form {
+  max-width: 50rem !important;
+}
+
+label:not([for='reason'], [for='message'])::after {
+  content: '*';
+  color: red;
+  font-weight: 500;
+}
+
+input:focus,
+textarea:focus,
+input,
+textarea {
+  border: 1.5px solid #e0e3eb !important;
+}
+
+@media (min-width: 768px) {
+  .experience-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0;
+    gap: 400px;
+    position: relative;
+    height: 600px;
+    padding-top: 50px;
+  }
+
+  .statscard {
+    width: 30%;
+    height: 20vw;
+  }
+
+  .experience-section {
+    flex-direction: column;
+    justify-content: center;
+    height: 200vh;
+  }
+
+  .experience-section-left {
+    position: static;
+    margin: 0;
+  }
+
+  .experience-section-right {
+    width: 50vw;
+    margin-left: 50%;
+    transform: translateX(-40%);
+  }
+
+  .project-completed {
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    width: 350px;
+  }
+
+  .happy-clients {
+    position: absolute;
+    left: 380px;
+    top: 20px;
+  }
+
+  .awards-win {
+    position: absolute;
+    top: 275px;
+    left: 380px;
+  }
+
+  .business-years {
+    position: absolute;
+    top: 375px;
+    left: 100px;
+    width: 350px;
+  }
+
+  .project-completed-image {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    display: block;
+  }
+
+  .handshake {
+    position: absolute;
+    top: 3px;
+    left: 530px;
+    display: block;
+  }
+
+  .awards {
+    position: absolute;
+    top: 220px;
+    left: 530px;
+    display: block;
+  }
+
+  .business-year-image {
+    position: absolute;
+    top: 310px;
+    left: 30px;
+    display: block;
+  }
+
+  .right-side {
+    width: 80%;
+  }
+
+  .menu-items-left > h4:hover {
+    border-left: 5px solid #2947a9;
+    padding-left: 12px;
+    color: #2947a9;
+  }
+
+  .hidden {
+    display: inline-block;
+    height: 30px;
+  }
+
+  .ads-section {
+    height: 50vh;
+    width: 100vw;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about-hero-img {
+    position: relative;
+    width: 90%;
+    height: 40vw;
+  }
+
+  .about-text {
+    position: absolute;
+    left: 60%;
+    width: 35%;
+    height: 30vw;
+  }
+
+  .services {
+    margin-left: 10%;
+  }
+
+  .reputation-card {
+    width: 25%;
+  }
+
+  .form-section {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .experience-section-left {
+    padding-left: 56%;
+  }
+  .consultationbutton {
+    top: 40%;
+    left: 80%;
+    padding: 10px;
+  }
+
+  .right-side {
+    margin-left: 18%;
+  }
+
+  .form-section button {
+    width: 20%;
+    height: 3vw;
+  }
+
+  .experience-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0;
+    gap: 400px;
+    position: relative;
+    height: 600px;
+    padding-top: 50px;
+  }
+
+  .statscard {
+    width: 20%;
+    height: 10vw;
+  }
+
+  .experience-section-right {
+    width: 400px;
+  }
+
+  .experience-section-left {
+    position: static;
+    margin: 0;
+  }
+
+  .left-content {
+    margin-left: 15px;
+  }
+
+  .project-completed {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 350px;
+  }
+
+  .happy-clients {
+    position: absolute;
+    left: 410px;
+  }
+
+  .awards-win {
+    position: absolute;
+    top: 275px;
+    left: 380px;
+  }
+
+  .business-years {
+    position: absolute;
+    top: 375px;
+    left: 150px;
+    width: 350px;
+  }
+
+  .project-completed-image {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    display: block;
+  }
+
+  .handshake {
+    position: absolute;
+    top: 10px;
+    left: 620px;
+    display: block;
+  }
+
+  .awards {
+    position: absolute;
+    top: 220px;
+    left: 580px;
+    display: block;
+  }
+
+  .business-year-image {
+    position: absolute;
+    top: 480px;
+    left: 450px;
+    display: block;
+  }
+
+  .right-side {
+    width: 80%;
+  }
+
+  .menu-items-left > h4:hover {
+    border-left: 5px solid #2947a9;
+    padding-left: 12px;
+    color: #2947a9;
+  }
+
+  .hidden {
+    display: inline-block;
+    height: 30px;
+  }
+
+  .projects .category:hover {
+    border-left: 5px solid var(--blue);
+    padding-left: 15px !important;
+    color: var(--blue);
+    font-weight: 600;
+  }
+
+  .projects .project-img,
+  .projects .project-txt {
+    width: 380px;
+  }
+
+  .projects .project-img {
+    height: 250px;
+  }
+
+  .projects .project-txt {
+    background-color: var(--blue);
+  }
+
+  .projects .ellipse {
+    height: 20px;
+    width: 20px;
+  }
+
+  .card {
+    transform: unset;
+    left: unset;
+  }
+
+  .reputation-card {
+    width: 40%;
+  }
+
+  .hero-text {
+    right: unset;
+    transform: unset;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+  }
+}
